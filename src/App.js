@@ -7,7 +7,16 @@ import Adder from './Adder';
 function App() {
   const [count, setCount] = useState(42);
   const [count2, setCount2] = useState(100001);
+  let [colour, setColour] = useState('red');
   // shift alt and down repeats the line your cursor is on
+
+  const swapColours = () => {
+    if (colour === 'red'){
+      return colour = 'green';
+    } else if ( colour === 'green'){
+      return colour = 'red';
+    }
+  };
 
   return (
     <div className="App">
@@ -15,8 +24,8 @@ function App() {
         {count}
         <button onClick={() => setCount((currentValue) => {return currentValue + 1})}>click me</button>
 {/* instead of 'count + 1' using callback(a function) in setCount to avoid time lag */}
-      <Displayer barney={count2} />
-      <Adder lilAdder={setCount2} />
+      <Displayer barney={count2} headColour={colour} />
+      <Adder lilAdder={setCount2} colourChange={setColour} swap={swapColours} />
       </header>
      
     </div>
