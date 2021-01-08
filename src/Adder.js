@@ -5,14 +5,14 @@ const Adder = (props) => {
     let b = props.lilAdder;
     let e = props.colourSet;
     let f = props.lilColour
-     
-  const swapColours = () => {
-    if (f === 'red') {
-       e('green');
-    } else if (f === 'green') {
-       e('red');
-    }
-  };
+
+    const swapColours = () => {
+        if (f === 'red') {
+            e('green');
+        } else if (f === 'green') {
+            e('red');
+        }
+    };
 
     return (
         <div>
