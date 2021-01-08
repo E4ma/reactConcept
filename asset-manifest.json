@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactConcept/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/reactConcept/static/js/main.43f228a1.chunk.js",
+    "main.js.map": "/reactConcept/static/js/main.43f228a1.chunk.js.map",
+    "runtime-main.js": "/reactConcept/static/js/runtime-main.9006b9e0.js",
+    "runtime-main.js.map": "/reactConcept/static/js/runtime-main.9006b9e0.js.map",
+    "static/css/2.1755acee.chunk.css": "/reactConcept/static/css/2.1755acee.chunk.css",
+    "static/js/2.543d5a05.chunk.js": "/reactConcept/static/js/2.543d5a05.chunk.js",
+    "static/js/2.543d5a05.chunk.js.map": "/reactConcept/static/js/2.543d5a05.chunk.js.map",
+    "static/js/3.32d52c49.chunk.js": "/reactConcept/static/js/3.32d52c49.chunk.js",
+    "static/js/3.32d52c49.chunk.js.map": "/reactConcept/static/js/3.32d52c49.chunk.js.map",
+    "index.html": "/reactConcept/index.html",
+    "static/css/2.1755acee.chunk.css.map": "/reactConcept/static/css/2.1755acee.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/reactConcept/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.543d5a05.chunk.js.LICENSE.txt": "/reactConcept/static/js/2.543d5a05.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/reactConcept/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9006b9e0.js",
+    "static/css/2.1755acee.chunk.css",
+    "static/js/2.543d5a05.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.43f228a1.chunk.js"
+  ]
+}
